@@ -1,5 +1,5 @@
 import React from 'react';
-import { useLoaderData } from 'react-router-dom';
+import { useLoaderData,githubInfoLoader } from 'react-router-dom';
 
 function Github(){
     const data = useLoaderData()
